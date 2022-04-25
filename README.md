@@ -7,7 +7,7 @@ This repository contains three projects written in python :
 -   Value Strategy
 
 These projects were created as part of Nick McCullum's (@nickmccullum) course on Algorithmic Trading with Python, which is available at [freeCodeCamp](https://github.com/freeCodeCamp).
-Each project used librairies such as numpy, pandas and scipy to manipulate financial data received from an API and dealt accordingly with missing data.
+Each project used librairies such as NumPy, Pandas and SciPy to manipulate financial data received from an API and dealt accordingly with missing data.
 
 #### Financial Data
 
