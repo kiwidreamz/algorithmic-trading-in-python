@@ -65,4 +65,4 @@ Therefore, a composite basket of valuation metrics was used to build a more robu
 -   Enterprise Value divided by Earnings Before Interest, Taxes, Depreciation, and Amortization (EV/EBITDA)
 -   Enterprise Value divided by Gross Profit (EV/GP)
 
-Some of these metrics were not provided directly by the IEX API, such as EV over EBITDA or EV over GP. We calculated these metrics, as well as value percentiles which then helped us calculate each stocks Robust Value score. Once the 50 stocks are selected, the number of shares to buy are then calculated, rounded down to the nearest decimal since many brokers do not allow fractional trading. All this data is then outputed to an excel file.
+Some of these metrics were not provided directly by the IEX API, such as EV over EBITDA or EV over GP. We calculated these metrics, as well as value percentiles which then helped us calculate each stocks Robust Value score. Once the 50 stocks are selected, the number of shares to buy are then calculated, rounded down to the nearest decimal since many brokers do not allow fractional trading. All this data is then outputed to an excel file. 
