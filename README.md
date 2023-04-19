@@ -16,7 +16,7 @@ This means the data is not accurate and can not be used for real-world financial
 
 ## Equal Weight SP500
 
-Python script that calculates how many shares of each SP500 stock you should purchase in order to get an equal-weight version of the index fund, as opposed to a market capitalization weighed index such as the SPDR® S&P 500® ETF Trust.
+Python script that calculates how many shares of each SP500 stock you should purchase in order to get an equal-weight version of the index, as opposed to a market capitalization weighed index such as the SPDR® S&P 500® ETF Trust.
 
 This project starts with importing the 500 stocks that make up the SP500 index. Our API Token is then acquired from our secrets file.
 Batch API Calls are made, in order to get all 500+ stocks in groups of 100. THe calls are parsed, and the stocks are added to a Pandas DataFrame by looping through the tickers and appending them. The number of shares to buy are then calculated, rounded down to the nearest decimal since many brokers do not allow fractional trading.
